@@ -12,7 +12,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin: 'https://newproject-xi-eight.vercel.app', // replace with your frontend's domain
+    origin: 'https://hr-project-front-end.vercel.app', // replace with your frontend's domain
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
